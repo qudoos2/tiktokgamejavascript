@@ -100,7 +100,7 @@ nav ul{
     transition: width 1s ease-in-out;
 }
 
-@media screen and (max-width: 950px)
+@media screen and (max-width: 350px)
 {
     .gameContainer{
         flex-wrap: wrap;
@@ -109,10 +109,11 @@ nav ul{
         margin-top: 34px;
     }
     .gameInfo h1{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .container { 
         grid-template-rows: repeat(3, 20vw);
         grid-template-columns: repeat(3, 20vw);
     }
 }
+
